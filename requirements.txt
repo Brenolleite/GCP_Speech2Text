@@ -1,0 +1,4 @@
+google_cloud_speech>=0.36.2
+google_cloud_storage>=1.13.2
+argparse>=1.4
+librosa>=0.6.2
