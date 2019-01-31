@@ -9,21 +9,21 @@
 - Create a API credential, using Services Account Key -> Generate JSON file
 - Go to project file
 - Run ```pip install -r requirements.txt``` 
-- Be happy...
+- Be happy ...
 
 ## Usage
 
 - Run ```python main.py [args]```
 - Run ```python main.py -h``` for help
 
-# args
+# [args]
 
-- ```-f``` = File path to the audio to be transcribed
-- ```-b``` = Bucket name
-- ```-c``` = Path to credential file - JSON
-- ```-s``` = To save to a file, if not set transcription will be printed on screen
+- ```-f = File path to the audio to be transcribed```
+- ```-b = Bucket name ```
+- ```-c = Path to credential file - JSON```
+- ```-s = To save to a file, if not set transcription will be printed on screen```
 
-# example
+# Example
 
 ```python main.py -f my_audio.mp3 -b my_bucket_name -c my_credential.json -s```
 
