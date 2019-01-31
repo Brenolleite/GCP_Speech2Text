@@ -9,6 +9,7 @@
 - Create a API credential, using Services Account Key -> Generate JSON file
 - Go to project file
 - Run ```pip install -r requirements.txt``` 
+- Install FFmpeg
 - Be happy ...
 
 ## Usage
