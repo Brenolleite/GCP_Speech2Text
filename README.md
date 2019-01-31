@@ -1,4 +1,4 @@
-## Google Cloud Speech to Text
+# Google Cloud Speech to Text
 
 
 ## Instalation
@@ -16,18 +16,18 @@
 - Run ```python main.py [args]```
 - Run ```python main.py -h``` for help
 
-# [args]
+### [args]
 
 - ```-f = File path to the audio to be transcribed```
 - ```-b = Bucket name ```
 - ```-c = Path to credential file - JSON```
 - ```-s = To save to a file, if not set transcription will be printed on screen```
 
-# Example
+### Example
 
 ```python main.py -f my_audio.mp3 -b my_bucket_name -c my_credential.json -s```
 
-# Tips
+## Tips
 
 - Wav files tend to have better performance
 - Run one audio per time, transcription of long files might be huge memory consuming. It will throw seg fault when memory is full.
