@@ -9,7 +9,7 @@
 - Create a API credential, using Services Account Key -> Generate JSON file
 - Go to project file
 - Run ```pip install -r requirements.txt``` 
-- Be happy
+- Be happy...
 
 ## Usage
 
@@ -25,4 +25,9 @@
 
 # example
 
-```python main.py -f audio.mp3 -b test -c test_credential.JSON -s```
+```python main.py -f my_audio.mp3 -b my_bucket_name -c my_credential.json -s```
+
+# Tips
+
+- Wav files tend to have better performance
+- Run one audio per time, transcription of long files might be huge memory consuming. It will throw seg fault when memory is full.
